@@ -1,0 +1,15 @@
+[project]
+name = "graph-db"
+version = "0.1.0"
+description = "Graph database storing curiculla details."
+readme = "README.md"
+requires-python = "==3.11.9"
+dependencies = []
+
+[build-system]
+requires = ["setuptools==65.5.0"]
+build-backend = "setuptools.build_meta"
+
+[project.optional-dependencies]
+test = ["pytest", "pytest-cov"]
+dev = []
